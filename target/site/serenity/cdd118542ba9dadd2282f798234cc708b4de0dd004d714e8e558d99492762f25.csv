@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User CURD test with steps","2.id 3838 has name =Chaturbhuj Nehru DVM","ERROR","2022-06-21T11:48:40.862+01:00[Europe/London]","0.0","0.74"
+"User CURD test with steps","3. id 3838 has email =dvm_chaturbhuj_nehru@pagac.name","ERROR","2022-06-21T11:48:41.600+01:00[Europe/London]","0.0","0.76"
+"User CURD test with steps","5.id 3829 has gender =female","ERROR","2022-06-21T11:48:43.167+01:00[Europe/London]","0.0","0.73"
+"User CURD test with steps","6.id 3819 has gender =female","ERROR","2022-06-21T11:48:43.896+01:00[Europe/London]","0.0","0.72"

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As a user I would like to verify to CRUD operation of the application" skipped="0" tests="5" time="12.36" timestamp="2022-06-21T11:48:21.748+01:00[Europe/London]"><testcase name="I create a new user on the application"/><testcase name="I read a newly created user from the application"/><testcase name="I update a newly created user on the application"/><testcase name="I delete a newly created user from the application"/><testcase name="I get all users from the application"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
+in.co.gorest.cucumber.steps.MyStepdefs.iVerifyIfTheIdHasName(MyStepdefs.java:95)&#13;
+✽.And I verify if the id 2351 has name "Samir Shukla"(gorest.feature:31)&#13;
+</system-err></testcase></testsuite>

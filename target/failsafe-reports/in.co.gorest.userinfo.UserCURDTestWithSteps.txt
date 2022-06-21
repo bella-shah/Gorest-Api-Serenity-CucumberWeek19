@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: in.co.gorest.userinfo.UserCURDTestWithSteps
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 8.255 sec <<< FAILURE! - in in.co.gorest.userinfo.UserCURDTestWithSteps
+test006(in.co.gorest.userinfo.UserCURDTestWithSteps)  Time elapsed: 0.731 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at in.co.gorest.userinfo.UserCURDTestWithSteps.test006(UserCURDTestWithSteps.java:81)
+
+test007(in.co.gorest.userinfo.UserCURDTestWithSteps)  Time elapsed: 0.76 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at in.co.gorest.userinfo.UserCURDTestWithSteps.test007(UserCURDTestWithSteps.java:89)
+
+test009(in.co.gorest.userinfo.UserCURDTestWithSteps)  Time elapsed: 0.722 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at in.co.gorest.userinfo.UserCURDTestWithSteps.test009(UserCURDTestWithSteps.java:109)
+
+test010(in.co.gorest.userinfo.UserCURDTestWithSteps)  Time elapsed: 0.722 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at in.co.gorest.userinfo.UserCURDTestWithSteps.test010(UserCURDTestWithSteps.java:116)
+

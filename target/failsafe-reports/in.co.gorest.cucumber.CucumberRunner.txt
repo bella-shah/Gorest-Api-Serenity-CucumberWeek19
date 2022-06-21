@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: in.co.gorest.cucumber.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 15.394 sec <<< FAILURE! - in in.co.gorest.cucumber.CucumberRunner
+And I verify if the id 2351 has name "Samir Shukla"(Scenario: I get all users from the application)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at in.co.gorest.cucumber.steps.MyStepdefs.iVerifyIfTheIdHasName(MyStepdefs.java:95)
+	at ✽.And I verify if the id 2351 has name "Samir Shukla"(gorest.feature:31)
+
+Scenario: I get all users from the application  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at in.co.gorest.cucumber.steps.MyStepdefs.iVerifyIfTheIdHasName(MyStepdefs.java:95)
+	at ✽.And I verify if the id 2351 has name "Samir Shukla"(gorest.feature:31)
+

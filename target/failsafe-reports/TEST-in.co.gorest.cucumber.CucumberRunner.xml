@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.co.gorest.cucumber.CucumberRunner" time="2.161" tests="28" errors="2" skipped="4" failures="0">
+  <properties>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\44794\IdeaProjects\Gorest-Api-Serenity - CucumberWeek19"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\44794\IdeaProjects\Gorest-Api-Serenity - CucumberWeek19"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\44794\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.5\bin;C:\Program Files\nodejs\;C:\Users\44794\AppData\Local\Microsoft\WindowsApps;C:\Users\44794\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\44794"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="44794"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I am on homepage of the given application" classname="Scenario: I create a new user on the application" time="0.001"/>
+  <testcase name="When I send a POST request to the application using a valid payload" classname="Scenario: I create a new user on the application" time="0"/>
+  <testcase name="Then I get a valid status code 201 from the application" classname="Scenario: I create a new user on the application" time="0"/>
+  <testcase name="Scenario: I create a new user on the application" classname="Scenario: I create a new user on the application" time="2.034"/>
+  <testcase name="Given I am on homepage of the given application" classname="Scenario: I read a newly created user from the application" time="0"/>
+  <testcase name="When I send a GET request to the application to read newly created user" classname="Scenario: I read a newly created user from the application" time="0"/>
+  <testcase name="Then I get a valid status code 200 from the application" classname="Scenario: I read a newly created user from the application" time="0"/>
+  <testcase name="And I verify if the new user created with correct details" classname="Scenario: I read a newly created user from the application" time="0"/>
+  <testcase name="Scenario: I read a newly created user from the application" classname="Scenario: I read a newly created user from the application" time="0.038"/>
+  <testcase name="Given I am on homepage of the given application" classname="Scenario: I update a newly created user on the application" time="0"/>
+  <testcase name="When I send a PATCH request to the application using a valid payload" classname="Scenario: I update a newly created user on the application" time="0"/>
+  <testcase name="Then I get a valid status code 200 from the application" classname="Scenario: I update a newly created user on the application" time="0"/>
+  <testcase name="And I verify if the new user updated with correct details" classname="Scenario: I update a newly created user on the application" time="0"/>
+  <testcase name="Scenario: I update a newly created user on the application" classname="Scenario: I update a newly created user on the application" time="0.042"/>
+  <testcase name="Given I am on homepage of the given application" classname="Scenario: I delete a newly created user from the application" time="0"/>
+  <testcase name="When I send a DELETE request to the application" classname="Scenario: I delete a newly created user from the application" time="0"/>
+  <testcase name="Then I get a valid status code 204 from the application" classname="Scenario: I delete a newly created user from the application" time="0"/>
+  <testcase name="And I verify if the new user deleted from the application" classname="Scenario: I delete a newly created user from the application" time="0"/>
+  <testcase name="Scenario: I delete a newly created user from the application" classname="Scenario: I delete a newly created user from the application" time="0.036"/>
+  <testcase name="Given I am on homepage of the given application" classname="Scenario: I get all users from the application" time="0"/>
+  <testcase name="When I send a GET request to the application to read all users" classname="Scenario: I get all users from the application" time="0"/>
+  <testcase name="Then I get a valid status code 200 from the application" classname="Scenario: I get all users from the application" time="0"/>
+  <testcase name="And I verify if the id 2351 has name &quot;Samir Shukla&quot;" classname="Scenario: I get all users from the application" time="0.005">
+    <error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at in.co.gorest.cucumber.steps.MyStepdefs.iVerifyIfTheIdHasName(MyStepdefs.java:95)
+	at ✽.And I verify if the id 2351 has name "Samir Shukla"(gorest.feature:31)
+</error>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Authorization=Bearer 75c987adac5bd1820e58fb137137e2474501428068d1ec0dd68ae05bcff564c9
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 21 Jun 2022 10:48:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-RateLimit-Limit: 90
+X-RateLimit-Remaining: 89
+X-RateLimit-Reset: 1
+X-Pagination-Total: 3251
+X-Pagination-Pages: 163
+X-Pagination-Page: 1
+X-Pagination-Limit: 20
+X-Links-Previous: 
+X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+ETag: W/"c754a4b106f7c47180d1694809d53831"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: fba70aeb-a32c-42f6-8e8f-9cb265654347
+X-Runtime: 0.022571
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Origin
+Content-Encoding: gzip
+
+[
+    {
+        "id": 3305,
+        "name": "Sen. Ekadant Khanna",
+        "email": "khanna_sen_ekadant@bailey-cartwright.name",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3304,
+        "name": "Mrs. Charuchandra Mehra",
+        "email": "mrs_charuchandra_mehra@block-boyer.info",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 3303,
+        "name": "Chaten Bhattathiri",
+        "email": "chaten_bhattathiri@feest-rowe.name",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 3302,
+        "name": "Gautam Kaul",
+        "email": "gautam_kaul@mertz.info",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 3301,
+        "name": "Anusuya Johar",
+        "email": "anusuya_johar@kunde.biz",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3300,
+        "name": "Ghanshyam Trivedi",
+        "email": "trivedi_ghanshyam@balistreri.net",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 3299,
+        "name": "Amb. Nawal Pandey",
+        "email": "amb_nawal_pandey@ziemann.org",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3298,
+        "name": "Priyala Naik LLD",
+        "email": "priyala_naik_lld@botsford-bernhard.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 3297,
+        "name": "Narendra Jain",
+        "email": "narendra_jain@moore-funk.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3296,
+        "name": "Purnima Shah",
+        "email": "purnima_shah@heathcote-terry.name",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 3295,
+        "name": "Bhaanumati Ahuja II",
+        "email": "ii_bhaanumati_ahuja@vonrueden-miller.biz",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3294,
+        "name": "Ekadant Saini IV",
+        "email": "saini_ekadant_iv@ullrich.info",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 3293,
+        "name": "Dulari Talwar",
+        "email": "dulari_talwar@bartell.co",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3292,
+        "name": "Sen. Udit Gowda",
+        "email": "gowda_udit_sen@friesen.org",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3291,
+        "name": "Ashlesh Guha V",
+        "email": "guha_v_ashlesh@rippin-stamm.com",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3290,
+        "name": "Aagneya Nair",
+        "email": "aagneya_nair@lesch.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3289,
+        "name": "Chaitan Talwar IV",
+        "email": "iv_chaitan_talwar@mclaughlin.com",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 3288,
+        "name": "Bandhu Adiga",
+        "email": "bandhu_adiga@klein.info",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3287,
+        "name": "Divya Deshpande",
+        "email": "divya_deshpande@boehm-price.io",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 3286,
+        "name": "Siddarth Jha",
+        "email": "jha_siddarth@bins.io",
+        "gender": "male",
+        "status": "active"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: I get all users from the application" classname="Scenario: I get all users from the application" time="0.005">
+    <error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at in.co.gorest.cucumber.steps.MyStepdefs.iVerifyIfTheIdHasName(MyStepdefs.java:95)
+	at ✽.And I verify if the id 2351 has name "Samir Shukla"(gorest.feature:31)
+</error>
+  </testcase>
+  <testcase name="And I verify if the id 2351 had email &quot;samir_shukla@schiller-wuckert.biz&quot;" classname="Scenario: I get all users from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if the all id has status &quot;active&quot;" classname="Scenario: I get all users from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if the id 2351 has gender &quot;male&quot;" classname="Scenario: I get all users from the application" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify if the id 2334 had gender &quot;female&quot;" classname="Scenario: I get all users from the application" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
